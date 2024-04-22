@@ -14,6 +14,7 @@
         <module>pk-flink-sql</module>
         <module>pk-flink-cdc</module>
         <module>pk-kafka</module>
+        <module>pk-flink-project</module>
     </modules>
 
     <properties>
@@ -47,13 +48,13 @@
 
         <!-- Example:
 
+
+        -->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-kafka</artifactId>
             <version>${flink.version}</version>
         </dependency>
-        -->
-
         <!-- Add logging framework, to produce console output when running in the IDE. -->
         <!-- These dependencies are excluded from the application JAR by default. -->
         <dependency>
