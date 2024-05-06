@@ -1,6 +1,0 @@
-/Users/strong/workspace/flink/pk-flink/pk-flink-basic/src/main/java/com/pk/flink/basic/StreamWordCountApp.java
-/Users/strong/workspace/flink/pk-flink/pk-flink-basic/src/main/java/com/pk/flink/basic/function/PKFlatMapFunction.java
-/Users/strong/workspace/flink/pk-flink/pk-flink-basic/src/main/java/com/pk/flink/basic/function/PKMapFunction.java
-/Users/strong/workspace/flink/pk-flink/pk-flink-basic/src/main/java/com/pk/flink/basic/BatchWordCountAppV2.java
-/Users/strong/workspace/flink/pk-flink/pk-flink-basic/src/main/java/com/pk/flink/basic/PKFlinkSocketWCApp.java
-/Users/strong/workspace/flink/pk-flink/pk-flink-basic/src/main/java/com/pk/flink/basic/BatchWordCountApp.java
