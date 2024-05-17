@@ -1,0 +1,49 @@
+Iteration   4: 927628.988 ops/ms
+Iteration   5: 929373.971 ops/ms
+
+
+Result "com.jmh.test.BenchmarkTest.div":
+  929227.893 ±(99.9%) 4243.042 ops/ms [Average]
+  (min, avg, max) = (927628.988, 929227.893, 930721.184), stdev = 1101.905
+  CI (99.9%): [924984.850, 933470.935] (assumes normal distribution)
+
+
+# JMH version: 1.33
+# VM version: JDK 1.8.0_332, OpenJDK 64-Bit Server VM, 25.332-b09
+# VM invoker: /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64200:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 2 threads, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.jmh.test.BenchmarkTest.shift
+
+# Run progress: 50.00% complete, ETA 00:00:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 925889.195 ops/ms
+# Warmup Iteration   2: 932662.545 ops/ms
+# Warmup Iteration   3: 923760.478 ops/ms
+Iteration   1: 915281.927 ops/ms
+Iteration   2: 930259.195 ops/ms
+Iteration   3: 925956.799 ops/ms
+Iteration   4: 917777.586 ops/ms
+Iteration   5: 928267.766 ops/ms
+
+
+Result "com.jmh.test.BenchmarkTest.shift":
+  923508.655 ±(99.9%) 25450.436 ops/ms [Average]
+  (min, avg, max) = (915281.927, 923508.655, 930259.195), stdev = 6609.397
+  CI (99.9%): [898058.219, 948959.090] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:17
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark             Mode  Cnt       Score       Error   Units

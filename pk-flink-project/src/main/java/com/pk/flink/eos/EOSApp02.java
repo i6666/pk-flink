@@ -15,7 +15,7 @@ import org.apache.kafka.clients.consumer.ConsumerConfig;
  */
 public class EOSApp02 {
     static String BOOTSTRAP_SERVERS = "linux121:9092,linux122:9092,linux123:9092";
-    static String TOPICS = "flink_kafka";
+    static String TOPICS = "test_canal";
     static String GROUP = "group1";
 
     public EOSApp02() {

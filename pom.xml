@@ -45,6 +45,18 @@
             <version>${flink.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.openjdk.jmh</groupId>
+            <artifactId>jmh-core</artifactId>
+            <version>1.33</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjdk.jmh</groupId>
+            <artifactId>jmh-generator-annprocess</artifactId>
+            <version>1.33</version>
+            <scope>provided</scope>
+        </dependency>
+
         <!-- Add connector dependencies here. They must be in the default scope (compile). -->
 
         <!-- Example:
